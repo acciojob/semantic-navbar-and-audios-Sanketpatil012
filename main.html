@@ -5,26 +5,34 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
+<title>Semantic Navbar & Audios</title>
 <body>
 
 	<nav>
        <ul>
-         <a href="#"><li>About</li></a>
-		 <a href="#"><li>Home</li></a>
-		 <a href="#"><li>Search</li>  </a>  
+         <a href="https://www.example.com"><li>Home</li></a>
+		 <a href="https://www.example.com/about"><li>About</li></a>
+		 <a href="https://www.example.com/contact"><li>Contact</li>  </a>  
 	   </ul>
 	</nav>
 
 	<section>
-		<img  src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" alt="Show error if error occurs"   />
-	     <img src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" alt="Show the error if it occurs" / >
-		 <img src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" alt="Show the error if it occurs" /> 
-	</section>
+		 <h2>Three audio sections</h2>
+		 <audio controls>
+			 <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"  >
+		      Your Browser Doesn't support this audio. 
+		 </audio>
+	     <audio controls>
+			 <source src=" http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" >
+			Your Browser Doesn't support this audio. 
+		 </audio>
+	     <audio controls>
+			 < source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" >
+		    Your Browser Doesn't support this audio.
+		 </audio>
 	
+	</section>
 	<script type="text/javascript" src="./script.js">
 </script>
-
 </body>
-
 </html>
